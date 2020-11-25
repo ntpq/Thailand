@@ -1,4 +1,5 @@
 import React from "react";
+import Carousel from "../components/Carousel";
 import Header from "../components/Header";
 import NavBar from "../components/NavBar";
 
@@ -7,6 +8,7 @@ function Home() {
     <div>
       <Header />
       <NavBar />
+      <Carousel />
     </div>
   );
 }

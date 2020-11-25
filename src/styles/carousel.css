@@ -1,0 +1,8 @@
+.carousel-container {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.carousel-slider {
+  height: 450px;
+}
