@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 0 15px;
+}
+.header-lists {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.header-list {
+  list-style: none;
+}
+.logo {
+  letter-spacing: 5px;
+  font-size: 1.5rem;
+}
+.btn-quote {
+  border: 2px solid #01b3a7;
+  background-color: transparent;
+  text-align: center;
+  padding: 12px 23px;
+  margin-left: 65px;
+}
+button {
+  font-weight: bold;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  vertical-align: middle;
+  transition: all 0.4s 0.4s;
+}
+.btn-quote:hover {
+  color: white;
+  background-color: #01b3a7;
+}
